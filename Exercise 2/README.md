@@ -31,7 +31,7 @@ python3 -m pytest
 ### Measure Line Coverage (all files)
 
 ```bash
-python3 -m pytest –cov
+python3 -m pytest --cov .
 ```
 
 
