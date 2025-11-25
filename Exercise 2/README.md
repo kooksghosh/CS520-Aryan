@@ -38,9 +38,9 @@ python3 -m pytest --cov .
 ### Measure Branch Coverage (one module)
 
 ```bash
-python3 -m pytest –cov=MODULE_NAME –cov-branch TEST_FILE.py
+python3 -m pytest --cov=MODULE_NAME --cov-branch TEST_FILE.py
 Example:
-python3 -m pytest –cov=do_algebra –cov-branch test_do_algebra.py
+python3 -m pytest --cov=do_algebra --cov-branch test_do_algebra.py
 ```
 
 ### Generate HTML Coverage Report
