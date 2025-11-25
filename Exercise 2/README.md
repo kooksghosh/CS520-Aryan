@@ -45,7 +45,7 @@ python3 -m pytest --cov=do_algebra --cov-branch test_do_algebra.py
 
 ### Generate HTML Coverage Report
 ```bash
-python3 -m pytest –cov=MODULE_NAME –cov-branch –cov-report html TEST_FILE.py
+python3 -m pytest -–cov=MODULE_NAME -–cov-branch -–cov-report html TEST_FILE.py
 ```
 Then open the generated `htmlcov/index.html` in a browser.
 
